@@ -44,6 +44,8 @@ public class AleatorioEmple {
 			System.out.println(" ---------FICHERO VACÍO --------------------");
 	}// fin verporconsola
 
+	
+	//Metodo 2
 	public static void crear() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "rw");
