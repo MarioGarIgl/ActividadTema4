@@ -4,6 +4,7 @@ import java.io.RandomAccessFile;
 
 public class AleatorioEmple {
 
+	//Metodo 3
 	public static void main(String[] args) throws IOException {
 		crear();
 		leer();
